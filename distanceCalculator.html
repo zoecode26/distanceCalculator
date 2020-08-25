@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Distance Calculator </title>
+		<link href="distanceCalculator.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+		<link rel="icon" href = "favicon.png">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src = "distanceCalculator.js"> </script>
+		<script src="http://maps.googleapis.com/maps/api/js?libraries=geometry&sensor=false"></script>
+
+	</head>
+	<body>
+		<div id = "titleback" >
+			<h1> Distance Calculator </h1>
+		</div>
+
+		<div id="map"></div>
+		<div id="content">
+      		<h2 id = "title"> How To Use: </h2>
+      		<p> Click on two different points on the map <br>to find the distance between them. <br><br>Click a third time to remove the current <br> markers and calculate another distance.</p>
+      		<button type="button" onclick="text()"><u> CLOSE </u></button>
+   		</div>
+
+		<div id = "footer"> 
+			<h2 id = "distancelabel"> Distance: </h2>
+		</div>
+
+		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO56RknbZVeR6CchB4LCI6T57LiMefhqY&callback=initMap"></script>
+
+	</body>
+</html>
