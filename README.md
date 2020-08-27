@@ -10,3 +10,5 @@ I had been wanting to create something using the Google Maps API for quite a whi
 ### Instructions for use
 - Click on two different points on the map to see the distance between them displayed at the bottom of the screen. 
 - Click a third time to remove the current markers and calculate another distance.
+### Status
+The website is fully functional and usable. Any changes from this point would be likely be to fix issues with responsiveness that arise once I have tested the website on a wider range of mobile devices.
