@@ -7,6 +7,6 @@ I had been wanting to create something using the Google Maps API for quite a whi
 ![Main website view](distanceCalculator1.png)
 ### API used
 -	Google Maps Javascript API (https://developers.google.com/maps/documentation/javascript/overview)
-## Instructions for use
+### Instructions for use
 - Click on two different points on the map to see the distance between them displayed at the bottom of the screen. 
 - Click a third time to remove the current markers and calculate another distance.
